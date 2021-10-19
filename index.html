@@ -16,8 +16,8 @@
 
 <body>
 
-    <h1 class="col-sm mt-5 text-center">Ma première page bootstrap</h1>
-    <p class="col-sm text-center">En redimensionnant la page dans le navigateur, on voit le responsive en action!</p>
+    <h1 class="col-lg mt-5 text-center">Ma première page bootstrap</h1>
+    <p class="col-lg text-center">En redimensionnant la page dans le navigateur, on voit le responsive en action!</p>
 
     <!-- Nav Barre -->
 
@@ -33,15 +33,88 @@
           <a class="nav-link text-secondary" href="#">lien 3</a>
         </li>
       </ul> -->
+    <div class="sticky-sm-top">
+        <div class="row">
+            <nav class="nav bg-black mt-5">
+                <i class="col-lg-2 text-end bi bi-bookmark-check text-white mt-2"></i>
+                <a class="nav-link text-secondary" aria-current="page" href="#">Lien 1</a>
+                <a class="nav-link text-secondary" href="#">Lien 2</a>
+                <a class="nav-link text-secondary" href="#">Lien 3</a>
+            </nav>
+        </div>
+    </div>
 
-    <nav class="nav sticky-top bg-black mt-5 navbar-expand-sm">
-        <i class="bi bi-bookmark-check text-white mt-2"></i>
-        <a class="nav-link active text-secondary" aria-current="page" href="#">Lien 1</a>
-        <a class="nav-link text-secondary" href="#">Lien 2</a>
-        <a class="nav-link text-secondary" href="#">Lien 3</a>
-    </nav>
+
+    <!-- photo et texte -->
+
+    <div class="ml-5 mt-5 container">
+
+        <div class="row p-6 border border-succes">
+
+            <div class="col-lg-4">
+                <h2 class="mt-2 text-center fw-normal">A propos de moi</h2>
+                <p class="text-center">Ma photo</p>
+                <img src="img/portrait-user-unsplash.jpg" class="img-fluid" alt="photo portrait">
+
+                <p class="href-truncate-text">This is a truncate texte with href This is a truncate texte with href This
+                    is a truncate texte with href This is a truncate texte with href</p>
+                <h2 class="text-center">Quelque liens</h2>
+
+                <h5 class="mt-3 bi bi-instagram">Instagram</h5>
+                <h5 class="mt-3 bi bi-linkedin">Linkedin</h5>
+                <h5 class="mt-3 bi bi-facebook">facebook</h5>
+
+            </div>
+
+            <!-- photo pano  -->
+
+            <div class="col-lg-8">
+                <H2 class="mt-2 text-center fw-normal">Un grand titre</H2>
+                <h5 class="text-center">18 Septembre 2020</h5>
+                <img src="img/pano1-unsplash.jpg" class="img-fluid" alt="photo pano">
+                <p class="mt-2">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                    elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco.</p>
+
+                <H2 class="mt-2 text-center fw-normal">Un grand titre</H2>
+                <h5 class="text-center">18 Septembre 2020</h5>
+                <img src="img/pano2-unsplash.jpg" class="img-fluid" alt="photo pano">
+                <p class="mt-2">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                    elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco.</p>
+
+                <H2 class="mt-2 text-center fw-normal">Un grand titre</H2>
+                <h5 class="text-center">18 Septembre 2020</h5>
+                <img src="img/pano1-unsplash.jpg" class="img-fluid" alt="photo pano">
+                <p class="mt-2">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+                    elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco.</p>
 
 
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer-->
+
+    <footer class="bg-dark text-white mt-4 pt-4">
+
+        <h3 class="text-center h6">Inscription à notre newsletter</h3>
+
+        <form class="text-center mt-3" action="#" method="POST">
+            <input size="45%" type="text" placeholder="name@example.com" />
+        </form>
+
+        <div class="d-flex justify-content-between mt-5">
+            <p class="ps-2"><a class="text-white text-decoration-none" href="#">Mentions Légales</a></p>
+            <p class="pe-2">Site by La Manu</p>
+        </div>
+
+    </footer>
 
 
 
